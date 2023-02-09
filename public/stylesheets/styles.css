@@ -14,25 +14,36 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    height: 4rem;
     }
 
-.image {
-    display: flex;
-    width: 2rem;
+#image {
+    display: grid;
+    justify-content: center;
+}
+
+img {
+    width: 15rem;
+    margin: 3rem;
 }
 
 ul {
     color: aliceblue;
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
+    gap: 3rem;
+    list-style: none;
 }
 
-li {
-    color: aliceblue;
+a {
+    color: inherit;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    list-style: none;
+    text-decoration: none;
 }
 
+#btn-beer {
+    color: black;
+}
 
